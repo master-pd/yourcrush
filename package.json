@@ -1,0 +1,37 @@
+{
+  "name": "your-crush-bot",
+  "version": "2.0.0",
+  "description": "Facebook Messenger Bot by RANA",
+  "main": "master.js",
+  "scripts": {
+    "start": "node master.js",
+    "dev": "nodemon master.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fca-unofficial": "^1.4.9",
+    "axios": "^1.6.0",
+    "moment-timezone": "^0.5.43",
+    "colors": "^1.4.0",
+    "sequelize": "^6.35.0",
+    "sqlite3": "^5.1.6",
+    "canvas": "^2.11.2",
+    "jimp": "^0.22.10",
+    "gif-encoder-2": "^1.0.5",
+    "form-data": "^4.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "ytdl-core": "^4.11.5",
+    "youtube-search-api": "^1.1.0",
+    "google-it": "^1.6.2",
+    "node-fetch": "^2.7.0",
+    "request": "^2.88.2",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7",
+    "adm-zip": "^0.5.10"
+  },
+  "author": "RANA (MASTER 🪓)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

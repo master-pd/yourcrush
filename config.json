@@ -1,0 +1,186 @@
+{
+  "developmentMode": false,
+  "autoRestart": false,
+  "restartInterval": 60,
+  "admins": [
+    "61578706761898",
+    "100072228057200"
+  ],
+  "adminOnly": false,
+  "approveThreads": true,
+  "approveTimeout": 10,
+  "prefix": "!",
+  "language": "bn",
+  "timezone": "Asia/Dhaka",
+  "maxUploadSize": 26214400,
+  "allowedFileTypes": ["png", "jpg", "jpeg", "gif", "mp4", "mp3", "pdf", "txt", "zip"],
+  
+  "apiConfig": {
+    "openai": "sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "gemini": "AIzaSyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "antifb": "anti_fb_token_here",
+    "imgbb": "imgbb_api_key_here",
+    "tenor": "AIzaSyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "unsplash": "unsplash_access_key_here",
+    "youtube": "AIzaSyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "weather": "weather_api_key_here",
+    "google": "AIzaSyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "spotify_client_id": "spotify_client_id_here",
+    "spotify_client_secret": "spotify_client_secret_here",
+    "genius": "genius_access_token_here"
+  },
+  
+  "database": {
+    "type": "sqlite",
+    "path": "./includes/data.sqlite",
+    "backupInterval": 86400,
+    "maxBackups": 7,
+    "autoBackup": true
+  },
+  
+  "botInfo": {
+    "name": "𝗬𝗢𝗨𝗥 𝗖𝗥𝗨𝗦𝗛 ⟵𝗼_𝟬",
+    "version": "2.0.0",
+    "author": "𝗥𝗔𝗡𝗔 (𝗠𝗔𝗦𝗧𝗘𝗥 🪓)",
+    "uid": "61578706761898",
+    "location": "Faridpur, Dhaka, Bangladesh",
+    "status": "Online",
+    "contact": {
+      "email": "ranaeditz333@gmail.com",
+      "telegram": "@rana_editz_00",
+      "telegram_bot": "@black_lovers1_bot",
+      "phone": "01847634486",
+      "support_channel": "https://t.me/master_account_remover_channel"
+    },
+    "skills": [
+      "Video Editing",
+      "Photo Editing", 
+      "Mobile Technology",
+      "Online Operations",
+      "Cyber Security (Learning)"
+    ],
+    "education": "SSC Batch 2022",
+    "profession": "Security Field",
+    "work_type": "Experiment / Technical Operations",
+    "dream": "Become a Professional Developer",
+    "project": "Website (Coming Soon)"
+  },
+  
+  "features": {
+    "autoSeen": true,
+    "autoReact": false,
+    "autoTyping": false,
+    "welcomeMessage": true,
+    "leaveMessage": true,
+    "antiSpam": true,
+    "antiUnsend": false,
+    "autoDownload": false,
+    "autoReply": false,
+    "autoJoin": true,
+    "autoRankup": true,
+    "autoBackup": true,
+    "autoUpdate": false,
+    "economySystem": true,
+    "musicPlayer": false,
+    "aiChat": true,
+    "games": true,
+    "imageManipulation": true,
+    "nsfwCommands": false,
+    "adminTools": true,
+    "userTools": true,
+    "securityTools": true
+  },
+  
+  "limits": {
+    "maxCommandsPerMinute": 30,
+    "maxMessagesPerMinute": 50,
+    "maxThreads": 100,
+    "maxUsers": 1000,
+    "maxFileSize": 25000000,
+    "maxDownloadSize": 52428800,
+    "dailyMessages": 1000,
+    "cooldownTime": 2000,
+    "maxWarnings": 3
+  },
+  
+  "security": {
+    "encryption": false,
+    "backupFrequency": "daily",
+    "logRetention": 7,
+    "antiBot": true,
+    "antiLink": false,
+    "antiNsfw": true,
+    "requireApproval": true,
+    "logCommands": true,
+    "logErrors": true,
+    "encryptDatabase": false
+  },
+  
+  "economy": {
+    "enabled": true,
+    "startingCoins": 1000,
+    "dailyCoins": 500,
+    "workCoinsMin": 100,
+    "workCoinsMax": 1000,
+    "betMin": 10,
+    "betMax": 10000,
+    "interestRate": 0.05,
+    "interestInterval": 86400000
+  },
+  
+  "notifications": {
+    "newUser": true,
+    "newThread": true,
+    "errorAlert": true,
+    "backupComplete": true,
+    "updateAvailable": false
+  },
+  
+  "logging": {
+    "level": "info",
+    "file": "./logs/bot.log",
+    "maxSize": "10m",
+    "maxFiles": 5,
+    "format": "json"
+  },
+  
+  "server": {
+    "port": 3000,
+    "host": "0.0.0.0",
+    "ssl": false,
+    "webhook": false,
+    "dashboard": false
+  },
+  
+  "customization": {
+    "theme": "dark",
+    "colors": {
+      "primary": "#5865F2",
+      "secondary": "#57F287",
+      "error": "#ED4245",
+      "warning": "#FEE75C",
+      "info": "#5865F2"
+    },
+    "emojiSet": "default",
+    "font": "Arial"
+  },
+  
+  "modules": {
+    "enabled": true,
+    "autoLoad": true,
+    "path": "./Script/modules",
+    "exclude": ["test.js", "example.js"]
+  },
+  
+  "commands": {
+    "defaultCategory": "general",
+    "showHidden": false,
+    "cooldownEnabled": true,
+    "permissionLevels": {
+      "user": 0,
+      "admin": 1,
+      "owner": 2,
+      "dev": 3
+    }
+  }
+}
