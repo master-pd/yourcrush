@@ -28,3 +28,6 @@ Advanced Facebook Messenger Bot with 300+ commands created by RANA (MASTER 🪓)
 ###### in development work 
 বট এর কাজ চলছে এখনো 
 
+total file 500+ 
+added 103
+
