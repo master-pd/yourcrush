@@ -25,7 +25,6 @@ Advanced Facebook Messenger Bot with 300+ commands created by RANA (MASTER 🪓)
 
 ### Installation
 
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/your-crush-bot.git
-cd your-crush-bot
+###### in development work 
+বট এর কাজ চলছে এখনো 
+
